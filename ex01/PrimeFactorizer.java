@@ -4,7 +4,7 @@ class PrimeFactorizer{
 
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
-		long int n = sc.nextInt();
+		int n = sc.nextInt();
 	
 		//出力
 		System.out.print(n+": ");
