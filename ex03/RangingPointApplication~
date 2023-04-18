@@ -1,8 +1,0 @@
-class RangingPointApplication{
-	public static void main(String[] args){
-		point p1 = new Point();
-		Point p2 = new Point();
-	Point.X_MIN = -100;
-
-	}
-}

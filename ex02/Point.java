@@ -17,9 +17,13 @@ public class Point {
 	return y;
     }
 
-    //問題Bでつかう。入力された値を足し合わせていく
+    //入力された値を足し合わせていく。絶対値が１００超えたらその時の操作はキャンセル
     public void move(int dx, int dy){
-	this.x += dx;
-	this.y += dy;
+	    this.x += dx;
+	    this.y += dy;
+        if(Math.abs(this.x) > 100 || Math.abs(this.y) > 100){
+            this.x -= dx;
+            this.y -= dy;
+        } 
     }
 }

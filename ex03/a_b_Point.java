@@ -1,3 +1,4 @@
+/**/
 //Since point,java satisfied the specification of ProblemA, only Point.java needs to be submitted for Problems A and B.
 public class Point{
 
