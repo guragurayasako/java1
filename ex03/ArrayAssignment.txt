@@ -1,0 +1,4 @@
+In arrays a and b, a and b are pointers to the memory area 
+in which the entire array element of the array is stored. 
+Therefore, by setting b = a;, b points to the same memory
+ area as the object pointed to by a.
