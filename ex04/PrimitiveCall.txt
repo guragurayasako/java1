@@ -1,0 +1,7 @@
+In the movePoint method, the operation x = 100; y = 120; is performed,
+but the output is (x, y) = (8, 5) and the values are not updated. 
+This is because x, y in the test constructor and x, y in the movePoint method are different.
+Arguments of basic data types are passed to the method by value. 
+That is, if you change the value of a parameter in the movePoint method, 
+it is all valid only within the movePoint method, 
+because it does not affect the x, y values in the constructor.

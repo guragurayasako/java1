@@ -1,0 +1,11 @@
+The argument of the movePoint method is an object. 
+In this case, the contents of the object in the method caller and the contents of the object assigned to the argument 
+in the method manage the exact same location, 
+so changes to the object in the method also affect the caller's object. 
+For this reason, the contents of the calling point object are also updated by p.setX(100);p.setY(120);
+in the movePoint method. Adding p = new Point(0, 0); at the specified location changes the object pointed 
+to by p in the movePoint method, 
+but this assignment is not persistent. 
+This is because the reference is passed by value. 
+When control returns from the method, 
+point still refers to the same Point object as it did before the method was called.
